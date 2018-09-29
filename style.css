@@ -1,0 +1,19 @@
+@media all and (max-width: 449px) {
+    div#headImage, div.someText {
+        width: 100% !important;
+    }
+}
+div.someText, div#headImage {
+        margin-left:auto;
+        margin-right:auto;
+    width:450px;
+    }
+div#headImage img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+body {
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
